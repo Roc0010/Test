@@ -14,6 +14,7 @@
 		D8F500451A4A5B6F00E61195 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F500441A4A5B6F00E61195 /* Images.xcassets */; };
 		D8F500481A4A5B6F00E61195 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F500461A4A5B6F00E61195 /* LaunchScreen.xib */; };
 		D8F500541A4A5B6F00E61195 /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F500531A4A5B6F00E61195 /* test2Tests.m */; };
+		D8F5005F1A4A5BFC00E61195 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F5005E1A4A5BFC00E61195 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D8F5004D1A4A5B6F00E61195 /* test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F500521A4A5B6F00E61195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8F500531A4A5B6F00E61195 /* test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2Tests.m; sourceTree = "<group>"; };
+		D8F5005D1A4A5BFC00E61195 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D8F5005E1A4A5BFC00E61195 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				D8F5003C1A4A5B6F00E61195 /* AppDelegate.m */,
 				D8F5003E1A4A5B6F00E61195 /* ViewController.h */,
 				D8F5003F1A4A5B6F00E61195 /* ViewController.m */,
+				D8F5005D1A4A5BFC00E61195 /* TestViewController.h */,
+				D8F5005E1A4A5BFC00E61195 /* TestViewController.m */,
 				D8F500411A4A5B6F00E61195 /* Main.storyboard */,
 				D8F500441A4A5B6F00E61195 /* Images.xcassets */,
 				D8F500461A4A5B6F00E61195 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				D8F500401A4A5B6F00E61195 /* ViewController.m in Sources */,
 				D8F5003D1A4A5B6F00E61195 /* AppDelegate.m in Sources */,
+				D8F5005F1A4A5BFC00E61195 /* TestViewController.m in Sources */,
 				D8F5003A1A4A5B6F00E61195 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
